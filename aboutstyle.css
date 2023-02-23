@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+        *{
+            margin:0px;
+            box-sizing: border-box;
+            padding: 0px;
+            /* background-color: antiquewhite; */
+            font-family: 'Ubuntu', sans-serif;
+        }
+        body {
+            background: linear-gradient(to bottom, rgb(61, 199, 217), rgba(234, 3, 64, 0.536),rgb(244, 125, 7));
+            height: 100vh;
+        }
+        nav{
+           text-align: center;
+            background-color: rgba(135, 18, 20, 0.945);
+        }
+        nav ul{
+           list-style: none;   
+           display: inline-flex;
+           /* float: right; */
+           height: 6vh;
+           justify-content: center;
+           align-items: center;
+           font-size: 25px;
+           font-weight: bolder;
+        }
+        nav ul li a{
+            color:white;
+            text-decoration: none;
+            padding: 0px 110px;
+        }
+        div{
+            font-size: 40px;
+            text-align: center;
+            align-items: center;
+            padding: 300px 100px;
+        }
